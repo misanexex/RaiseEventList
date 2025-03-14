@@ -222,14 +222,14 @@
 220.  
 221.  
 222.  
-223.  
-224.  
-225.  
-226.  
-227.  
-228.  
-229.  
-230.  
+223. caches token auth values
+224. clears lobby statistics
+225. nothing
+226. calls other raise events which do nothing
+227. returns client state "ConnectedToMaster"
+228. returns if youre in lobby
+229. does onjoinedlobby(); in lobbycallback targets
+230. 
 231.  
 232.  
 233.  
